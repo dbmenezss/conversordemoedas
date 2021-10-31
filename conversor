@@ -1,0 +1,11 @@
+alert("Olá, seja bem-vindo!🥰")
+alert("Use esse link para converter um valor em dólar para real")
+var valorEmDolarTexto = prompt("Qual valor você deseja converter?")
+
+var valorEmDolarNumero = parseFloat(valorEmDolarTexto)
+
+var valorEmReal = valorEmDolarNumero * 5.50
+var valorEmRealDecimal = valorEmReal.toFixed(2)
+
+
+alert(valorEmRealDecimal +  "reais")
